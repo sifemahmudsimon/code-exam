@@ -10,12 +10,7 @@ const ModalA = ({ show, onHide }) => {
         <Modal.Title>All Contacts</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {/* Content of the All Contacts modal */}
-        <div>
-            <h3>Contact Name</h2>
-            <p>Contact No:</p>
-            <p>Full Address:</p>
-        </div>
+
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>
